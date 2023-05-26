@@ -14,6 +14,7 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { ROUTES } from 'src/app/app.routes';
 import { MyFormComponent } from './my-form/my-form.component';
 import { OrderComponent } from './order/order.component';
+import { UserComponent } from './user/user.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { OrderComponent } from './order/order.component';
     MenuComponent,
     SignUpComponent,
     MyFormComponent,
-    OrderComponent
+    OrderComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
